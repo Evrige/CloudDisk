@@ -1,0 +1,5 @@
+{
+    "ServerPort": 5000,
+    "dbUrl": "mongodb+srv://evrige:Frig2020@clouddisk.bqwqpkf.mongodb.net/?retryWrites=true&w=majority",
+    "secretKey": "Ajax"
+}

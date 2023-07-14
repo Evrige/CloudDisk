@@ -1,0 +1,19 @@
+@import "./utils/color.scss";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    flood-color: $font-color;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $background-color;
+}
+
+#root{
+    width: 100%;
+}

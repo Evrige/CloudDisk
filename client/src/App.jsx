@@ -8,9 +8,11 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Navbar/>
-        <Routes>
-          <Route path="/registration" component={Registration}/>
-        </Routes>
+          <div className="wrap">
+              <Routes>
+                  <Route path="/registration" element={<Registration/>}/>
+              </Routes>
+          </div>
       </div>
     </BrowserRouter>
   );

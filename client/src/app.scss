@@ -4,16 +4,27 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    flood-color: $font-color;
+    color: $font-color;
+}
+a{
+    text-decoration: none;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: $background-color;
 }
 
 #root{
     width: 100%;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrap{
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }

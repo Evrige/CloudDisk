@@ -7,6 +7,7 @@ const config = require("config");
 const router = new Router();
 const authMiddleware = require('../middleware/auth.middleware')
 
+
 router.post("/registration", 
     [
         check('email', "Uncorrect email").isEmail(),
